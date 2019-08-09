@@ -1,0 +1,15 @@
+{
+  "full_name": "Mayank Diwedi",
+  "email": "diwedi.mayank1@gmail.com",
+  "github_username": "mayank-d1",
+  "project_name": "Python Project Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_github_url": "https://github.com/mayank-d1/{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "{{ cookiecutter.project_name }}",
+  "pypi_username": "",
+  "version": "0.1.0",
+  "use_pytest": "y",
+  "command_line_interface": ["No command-line interface", "Click"],
+  "create_author_file": "y",
+  "open_source_license": ["No License", "Apache Software License 2.0"]
+}
